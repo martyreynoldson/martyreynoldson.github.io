@@ -1,1 +1,1 @@
-# Marty Reynoldson - Personal Website
+# martyreynoldson.github.io
