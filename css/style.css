@@ -1479,13 +1479,14 @@ p.copyright {
 }
 
 .experience-description {
-  padding:5px;  
+  padding:20px;  
 }
 
 .experience-area {
-  padding:10px 0px 10px 0px;
+  padding:10px 5px 10px 5px;
 }
 
 .experience-text {
   color:black;
+  text-align: left;
 }
