@@ -29,6 +29,8 @@ width: 50px;
   
 }
 
+/* Sections */
+
 .intro-header {
   color: #f8f8f8;
   text-align: center;
@@ -64,6 +66,8 @@ width: 50px;
   background-color: black;
   text-align: center;
 }
+
+/* Section items */
 
 .img-circle {
   height: 150px;
