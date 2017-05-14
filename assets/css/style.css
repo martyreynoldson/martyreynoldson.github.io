@@ -8,7 +8,7 @@ html, body
 }
 
 
-.h1_home{
+.h1_home {
   padding:5px;
   font-size: 55px;
   font-size: 8vw;
@@ -22,11 +22,15 @@ html, body
   font-weight: 300;
 }
 
+.h2_heading {
+  font-size: 35px;
+  font-weight: 300;
+}
+
 .abcen{position: absolute;bottom: 5%;}
 
 .button_down img {
-width: 50px;
-  
+  width: 50px; 
 }
 
 /* Sections */
@@ -79,7 +83,7 @@ width: 50px;
 .display-picture-wrapper {
   height:auto;
   padding-top:5px;
-  padding-bottom:10px;
+  padding-bottom:20px;
 }
 
 .body-text {
@@ -93,9 +97,9 @@ width: 50px;
 }
 
 .contact-icon {
-    padding: 5px 5px 5px 5px;
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
+  padding:2px;
 }
 
 /* Experience */ 
