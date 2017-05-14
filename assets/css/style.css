@@ -172,7 +172,7 @@ html, body
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: #990099;
+    background: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
