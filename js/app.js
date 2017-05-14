@@ -85,7 +85,7 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "onclick": {
@@ -131,3 +131,23 @@ particlesJS('particles-js',
   }
 
 );
+
+$(window).load(function() { 
+  $('#status').delay(300).fadeOut(); 
+  $('#preloader').delay(300).fadeOut('slow');
+  $('body').delay(550).css({'overflow':'visible'});
+})
+
+$(document).ready(function() {
+    $(".img_scroll").hover(function () {
+      $(this).toggleClass("animated infinite bounce");
+    });
+    
+    wow = new WOW(
+    {
+      mobile: false
+    });
+    wow.init();
+
+
+});
