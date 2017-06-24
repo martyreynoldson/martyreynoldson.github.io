@@ -157,10 +157,10 @@ html, body
 }
 
 .portfolio-box {
-    display: block;
     position: relative;
-    margin: 15px 0 15px 0;
     max-width: 650px;
+    display: table;
+    margin: 0 auto;
 }
 
 .portfolio-box .portfolio-box-caption {
